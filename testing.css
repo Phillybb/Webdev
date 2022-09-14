@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+    <meta charset="UTF-8">
+    <title>Oefeningen</title>
+    <style>
+        body{
+            border: 1px solid black;
+            width: 40%
+            <font-size></font-size>: 80px;
+        }
+        #a{
+            width: 150px;
+            height: 150px;
+            background-color: green;
+        }
+        #b{
+            width: 150px;
+            height: 150px;
+            background-color: red;
+        }
+        #c{
+            width: 150px;
+            height: 150px;
+            background-color: blue;
+        }
+     </style>
+  </head>
+  <body>
+      <div id="A">
+        A
+      </div>
+      
