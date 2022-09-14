@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="styles.css">
+      <meta name="robots" content="all">
+      <meta name="language" content="dutch">
+      <meta name="author" content="Raphael pluim">
+      <meta name="description" content="RadioGaGa marketing">
+      <meta name="keywords" content="RadioGaGa, muziek, playlist">
+      <meta name="copyright" content="copyright">
+      <title>RadioGaGa</title>
+   </head>
+   <body>
+      <nav>
+         <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="playlist.html">Playlist</a></li>
+          <li><a href="formulier.html">Formulier</a></li>
+          <li><a href="contact.html">Contact</a></li>
+         </ul>
+      </nav>
+      <div id="logo">
+      </div>
+      <main>
+         <div id="pager">
+            <div id="vorige">
+               <a href="contact.html"> &lt;</a>
+            </div>
+            <div id="volgende">
+               <a href="playlist.html"> &gt; </a>
+            </div>
+         </div>
+         <div id="albums">
+         <ul>
+            <li>
+                <a onclick=
+                "document.getElementById('album-1').style.display='block';
+                document.getElementById('album-2').style.display='none';
+                document.getElementById('album-3').style.display='none';">
+                <img src="images/album-1.jpg"></a>
+            </li>
+            <li>
+                <a onclick=
+                "document.getElementById('album-1').style.display='none';
+                document.getElementById('album-2').style.display='block';
+                document.getElementById('album-3').style.display='none';">
+                <img src="images/album-2.jpg"></a>
+            </li>
+            <li>
+                <a onclick=
+                "document.getElementById('album-1').style.display='none';
+                document.getElementById('album-2').style.display='none';
+                document.getElementById('album-3').style.display='block';">
+                <img src="images/album-3.jpg"></a>
+            </li>
+         </ul>
+        </div> <!-- einde albums -->
+         <div id="multimedia">
+            <div id="album-1" style='display: block'>
+                <video controls width="auto" preload poster="images/album-1.jpg">
+                <source src="videos/trailer.webm" type="videos/webm">
+                <source src="videos/trailer.ogg" type="videos/ogg">
+                <source src="videos/trailer.mp4" type="videos/mp4">
+             </video>
+             <table>
+                <thead>
+                   <tr>
+                      <th>Track</th><th>Titel</th><th>Tijd</th><th>Play</th>
+                   </tr>
+                </thead>
+                <tbody>
+                   <tr>
+                      <td>1</td>
+                      <td>Muse-Algorithim</td>
+                      <td>04:39</td>
+                      <td>
+                <a onclick="
+                document.getElementById('audio').src='audio/Muse-Algorithim.mp3';
+                v=document.getElementById('audio');
+                v.play();"></a>
+                      </td>
+                   </tr>
+                   <tr>
+                      <td>2</td>
+                      <td>Titel 2</td>
+                      <td>0:00</td>
+                      <td>
+                <a onclick="
+                document.getElementById('audio').src='audio/Muse-Algorithim.mp3';
+                v=document.getElementById('audio');
+                v.play();"></a>
+                   </td>
+                   </tr>
+                   <tr>
+                      <td>3</td>
+                      <td>Titel 3</td>
+                      <td>0:00</td>
+                      <td>
+                <a onclick="
+                document.getElementById('audio').src='audio/Muse-Algorithim.mp3';
+                v=document.getElementById('audio');
+                v.play();"></a>
+                   </td>
+                   </tr>
+                <tbody>
+             </table>
+             <audio style="display: block" id="audio" src="audio/Muse-Algorithim.mp3" controls>
+             </audio>
+            </div> <!-- einde album-1 -->
+         </div> <!-- einde multimedia -->
+      </main>
+      <footer>
+        <a href="#top"><img src="images/twitter.png" alt="x" ></a>
+        <a href="#top"><img src="images/youtube.png" alt="x" ></a>
+        <a href="#top"><img src="images/facebook.png" alt="x" ></a>
+        <p>copyright &copy; 2017 <i>Ontworpen door: Raphael Pluim</i>
+        Alle rechten voorbehouden.</p>
+      </footer>
+   </body>
+</html>       
+            
+        
+         
